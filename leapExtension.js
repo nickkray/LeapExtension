@@ -33,7 +33,7 @@ $(document).ready(function() {
     console.log("asdf");
     var swiper = ctl.gesture('swipe');
 
-    var tolerance = 50;
+    var tolerance = 80;
     var cooloff = 50;
 
     var x = 2,
