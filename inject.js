@@ -1,9 +1,9 @@
 //window.addEventListener("load", function(){
     var jq = document.createElement('script');
     jq.src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js";
-    jq.onload=function(){
-
-var undersc = document.createElement('script');
+    document.body.appendChild(jq);
+    
+    var undersc = document.createElement('script');
     undersc.src = "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js";
     document.body.appendChild(undersc);
 
@@ -15,9 +15,6 @@ var undersc = document.createElement('script');
     leapExtension.src = "https://raw.githubusercontent.com/nickkray/LeapExtension/master/leapExtension.js";
     document.body.appendChild(leapExtension);
 
-
-    }
-    document.body.appendChild(jq);
 
     
 //});

@@ -4,7 +4,7 @@ var simulateKeyPress = function(character) {
     eventObj.initEvent("keydown", true, true);
     eventObj.which = character;
     //(document.activeElement || document.body).dispatchEvent(eventObj);
-    document.body.dispatchEvent(eventObj);
+    document.dispatchEvent(eventObj);
     /*setTimeout(function() {
         var eventObj = document.createEvent("Events");
         eventObj.initEvent("keyup", true, true);
