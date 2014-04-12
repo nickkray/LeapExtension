@@ -26,7 +26,7 @@ $(document.body).keydown(function() {
     });
 */
 $(document).ready(function() {
-    simulateKeyPress(37);
+    //simulateKeyPress(37);
     var ctl = new Leap.Controller({
         enableGestures: true
     });
