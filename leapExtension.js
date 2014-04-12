@@ -3,18 +3,17 @@ var simulateKeyPress = function(character) {
     var eventObj = document.createEvent("Events");
     eventObj.initEvent("keydown", true, true);
     eventObj.which = character;
-    //(document.activeElement || document.body).dispatchEvent(eventObj);
-    document.body.dispatchEvent(eventObj);
-    /*setTimeout(function() {
+    (document.activeElement || document.body).dispatchEvent(eventObj);
+    setTimeout(function() {
         var eventObj = document.createEvent("Events");
         eventObj.initEvent("keyup", true, true);
         eventObj.which = character;
         (document.activeElement || document.body).dispatchEvent(eventObj);
-    }, 10);*/
+    }, 10);
 };
 
 
-/*
+
 $(document.body).keydown(function() {
     console.log('keydown');
 })
@@ -24,9 +23,9 @@ $(document.body).keydown(function() {
     .keypress(function() {
         console.log('keypress');
     });
-*/
+
 $(document).ready(function() {
-    //simulateKeyPress(37);
+    simulateKeyPress(37);
     var ctl = new Leap.Controller({
         enableGestures: true
     });
