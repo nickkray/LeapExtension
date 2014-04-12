@@ -12,6 +12,6 @@ $(document).ready(function() {
     document.body.appendChild(leapmotion);
 
     var leapExtension = document.createElement('script');
-    leapExtension.src = "https://raw.githubusercontent.com/woojoo666/LeapExtension/master/leapExtension.js";
+    leapExtension.src = "https://raw.githubusercontent.com/nickkray/LeapExtension/master/leapExtension.js";
     document.body.appendChild(leapExtension);
 });
