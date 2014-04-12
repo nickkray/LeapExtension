@@ -3,6 +3,7 @@
   "version": "1.1",
 "manifest_version":2,
 	"content_scripts":[{
+	"matches":["*"],
 	"js":["inject.js"]
 	
 	}]
