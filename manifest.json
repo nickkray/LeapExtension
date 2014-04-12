@@ -1,0 +1,9 @@
+{
+  "name": "Leap Extension",
+  "version": "1.1",
+	"content_scripts":[{
+	"js":["inject.js"],
+	
+	}]
+}
+
