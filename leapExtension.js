@@ -9,8 +9,10 @@ var simulateKeyPress = function(character) {
         eventObj.initEvent("keyup", true, true);
         eventObj.which = character;
         (document.activeElement || document.body).dispatchEvent(eventObj);
-    }, 50);
+    }, 10);
 };
+
+
 
 $(document.body).keydown(function() {
     console.log('keydown');

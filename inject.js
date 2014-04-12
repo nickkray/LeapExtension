@@ -1,4 +1,4 @@
-$(document).ready(function() {
+//window.addEventListener("load", function(){
     var jq = document.createElement('script');
     jq.src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js";
     document.body.appendChild(jq);
@@ -14,4 +14,7 @@ $(document).ready(function() {
     var leapExtension = document.createElement('script');
     leapExtension.src = "https://raw.githubusercontent.com/nickkray/LeapExtension/master/leapExtension.js";
     document.body.appendChild(leapExtension);
-});
+//});
+
+
+//}, false); 
